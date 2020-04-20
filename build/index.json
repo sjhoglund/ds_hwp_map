@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "data",
+      "label": "Data Fields",
+      "elements": [
+	    {
+          "id": "dimension",
+          "label": "Dimension",
+          "type": "DIMENSION",
+          "options": {
+              "min": 0,
+              "max": 2
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "colorOptions",
+      "label": "Color Options",
+      "elements": [
+        {
+          "id": "districtOuter",
+          "label": "Color for District",
+          "defaultValue": {
+            "color": "#ddd"
+          },
+          "type": "FILL_COLOR"
+        },
+        {
+          "id": "districtInner",
+          "label": "Color for District",
+          "defaultValue": {
+            "color": "#000"
+          },
+          "type": "FILL_COLOR"
+        },
+        {
+          "id": "bubbleColor",
+          "label": "Color for Bubbles",
+          "defaultValue": {
+            "color": "#f5a442"
+          },
+          "type": "FILL_COLOR"
+        }
+      ]
+    }
+  ]
+}

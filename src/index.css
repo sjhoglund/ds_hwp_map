@@ -1,0 +1,15 @@
+body {
+    overflow: hidden;
+}
+
+.feature {
+/*   fill: #ccc; */
+  fill: transparent;
+}
+
+.mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+}
